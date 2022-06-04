@@ -1,0 +1,31 @@
+body{
+    background-color: grey;
+}
+
+img{
+    width: 250px;
+
+}
+
+p {
+    color: aquamarine;
+}
+
+h1 {
+    color: aquamarine;
+}
+
+.number {
+    font-size: 100%;
+    color: aquamarine;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.grid-item {
+    border: 2px solid green;
+}
