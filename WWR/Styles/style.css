@@ -244,6 +244,21 @@ nav {
     transform: scale(1.1);
 }
 
+.river-image {
+    width: 250px;
+    height: 200px;
+}
+
+.hours {
+    color: #168AAD;
+    padding: 2px;
+    margin-left: 550px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    border: 10px solid #168AAD;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 @media screen and (max-width: 900px) {
 
     #hero,
