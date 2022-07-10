@@ -1,0 +1,263 @@
+/* General Styling that will be used throughout all pages */
+
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato:wght@300&display=swap');
+
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.part-one, .part-two {
+    margin-top: 5em;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: "Kdam Thmor Pro", "sans-serif";
+    line-height: 5rem;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: "Kdam Thmor Pro", "sans-serif";
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Navigation Styling */
+
+nav {
+    justify-self: left;
+    align-self: center;
+    padding-left: 2em;
+}
+
+nav a {
+    text-align: center;
+    color:#F3F3F4;
+    text-decoration: none;
+    padding: 0 1em;
+    font-size: 30px;
+    font-family: "Kdam Thmor Pro", "sans-serif";
+}
+
+nav .home:hover {
+    color: #F3F3F4;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #ee2121;
+}
+
+nav .about:hover {
+    color: #F3F3F4;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #eeeb21;
+}
+
+nav .reviews:hover {
+    color: #F3F3F4;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #21ee32;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 1px black;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo:hover {
+    box-shadow: 3px 3px 8px #1429e9;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    border-radius: 5px;
+    background: #383838;
+    box-shadow: 3px 3px 6px #88898b;
+}
+
+.home {
+    grid-column: 1/2;
+    padding-right: 1em;
+}
+
+.about {
+    grid-column: 2/3;
+    padding-right: 1em;
+}
+
+.reviews {
+    grid-column: 3/4;
+}
+
+
+/* Home Page Part 1 Styling */
+
+.part-one {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 6px 6px 11px #88898b;
+}
+
+.sec-one {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.learn-more {
+    border-radius: 5px;
+    background: rgb(51, 51, 51);
+    color:white;
+    padding: 5px 15px;
+    text-decoration: none;
+    box-shadow: 3px 3px 6px #88898b;
+    font-family: 'Lato', sans-serif;
+}
+
+.learn-more:hover {
+    box-shadow: none;
+}
+
+#home-image {
+    width: 100%;
+    height: 100%;
+    box-shadow: 6px 6px 11px #88898b;
+}
+
+.part-one p {
+    color:#88898b;
+}
+
+/* Home Page Part 2 Styling */
+
+.part-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.part-two p {
+    color:#88898b;
+}
+
+.card-image {
+    width: 50px;
+    height: 50px;
+}
+
+.home-cards {
+    width: auto;
+    padding: 5%;
+    text-align: center;
+    box-shadow: 6px 6px 11px #88898b
+}
+
+/* Home Page Part 3 Styling */
+
+
+
+/* Footer Styling */
+
+.footer-one {
+    display: grid;
+    grid-template-columns: repeat(1fr,6);
+    border-radius: 5px;
+    background: #383838;
+    box-shadow: 3px 3px 6px #88898b;
+    margin-top: 50px;
+    text-align: center;
+    overflow: auto;
+}
+
+.footer-one a {
+    text-decoration: none;
+    text-align: center;
+    color:#F3F3F4;
+    padding: 1rem;
+    font-size: 30px;
+    font-family: "Kdam Thmor Pro", "sans-serif";
+
+}
+
+.contact-us {
+    grid-column: 1/2;
+}
+
+.footer-reviews {
+    grid-column: 2/3;
+}
+
+.twitter {
+    grid-column: 3/4;
+}
+
+.facebook {
+    grid-column: 4/5;
+}
+
+.instagram {
+    grid-column: 5/6;
+}
+
+.footer-two {
+    text-align: center;
+    color: #88898b;
+}
+
+.footer-one .contact-us:hover {
+    color: #F3F3F4;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #1429e9;
+}
+
+.footer-one .footer-reviews:hover {
+    color: #F3F3F4;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #ee2121;
+}
+
+.footer-one .twitter:hover {
+    color: #F3F3F4;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #eeeb21;
+}
+
+.footer-one .facebook:hover {
+    color: #F3F3F4;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #21ee32;
+}
+
+.footer-one .instagram:hover {
+    color: #F3F3F4;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #7a21ee;
+}
+
+/* Screen Size Enhancement */
+
+@media screen and (max-width: 900px) {
+
+    .part-one,.part-two,.part-three {
+        display: block;
+        height: auto;
+    }
+
+    .sec-one h1{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+}
