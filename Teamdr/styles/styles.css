@@ -173,7 +173,7 @@ header {
 
 .footer-one {
     display: grid;
-    grid-template-columns: repeat(1fr,6);
+    grid-template-columns: repeat(1fr,7);
     border-radius: 5px;
     background: #383838;
     box-shadow: 3px 3px 6px #88898b;
@@ -212,6 +212,10 @@ header {
     grid-column: 5/6;
 }
 
+.site-plan {
+    grid-column: 6/7;
+}
+
 .footer-two {
     text-align: center;
     color: #88898b;
@@ -245,6 +249,12 @@ header {
     color: #F3F3F4;
     text-decoration: none;
     text-shadow: 3px 3px 8px #7a21ee;
+}
+
+.footer-one .site-plan:hover {
+    color: #F3F3F4;
+    text-decoration: none;
+    text-shadow: 3px 3px 8px #ee21bb;
 }
 
 /* Screen Size Enhancement */
