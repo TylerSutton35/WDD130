@@ -9,7 +9,7 @@ main {
     margin-right: 5%;
 }
 
-.part-one, .part-two {
+.part-one, .part-two, .part-three, .part-four, .part-five {
     margin-top: 5em;
 }
 
@@ -27,6 +27,7 @@ h2 {
 p {
     font-size: 25px;
     font-family: 'Lato', sans-serif;
+    color:#88898b;
 }
 
 /* Navigation Styling */
@@ -122,6 +123,7 @@ header {
     background: rgb(51, 51, 51);
     color:white;
     padding: 5px 15px;
+    text-align: center;
     text-decoration: none;
     box-shadow: 3px 3px 6px #88898b;
     font-family: 'Lato', sans-serif;
@@ -165,7 +167,56 @@ header {
     box-shadow: 6px 6px 11px #88898b
 }
 
-/* Home Page Part 3 Styling */
+/* About Page Part 3 Styling */
+
+.part-three {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 6px 6px 11px #88898b;
+}
+
+.how-one {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.about-image-one {
+    width: 100%;
+    height: 100%;
+}
+
+/* About Page Part Four Styling */
+
+.part-four {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.part-four img {
+    width: 80%;
+    height: 30%;
+}
+
+.what {
+    grid-column: 1/2;
+    box-shadow: 6px 6px 11px #88898b;
+    width: 95%;
+    text-align: center;
+}
+
+.how-two {
+    grid-column: 2/3;
+    box-shadow: 6px 6px 11px #88898b;
+    width: 95%;
+    text-align: center;
+}
+
+.paragraph {
+    padding: 5%;
+}
+
+
 
 
 
@@ -261,7 +312,7 @@ header {
 
 @media screen and (max-width: 900px) {
 
-    .part-one,.part-two,.part-three {
+    .part-one,.part-two,.part-three,.part-four {
         display: block;
         height: auto;
     }
