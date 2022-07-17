@@ -19,7 +19,8 @@ main {
 .part-two,
 .part-three,
 .part-four,
-.part-five {
+.part-five,
+.part-six {
     margin-top: 5em;
 }
 
@@ -273,8 +274,8 @@ header {
     box-shadow: 6px 6px 11px #88898b;
     margin: 5% auto;
     width: fit-content;
-    justify-content: center;
     padding: 2%;
+    overflow:hidden;
 }
 
 .contact-page img {
@@ -303,6 +304,7 @@ footer {
     color: #F3F3F4;
     font-size: 25px;
     font-family: "Kdam Thmor Pro", "sans-serif";
+    padding: 10px;
 }
 
 .copyright {
@@ -383,7 +385,8 @@ footer {
     .part-two,
     .part-three,
     .part-four,
-    .part-five {
+    .part-five,
+    .part-six {
         display: block;
         height: auto;
     }
