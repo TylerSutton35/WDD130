@@ -4,18 +4,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato:wght@300&display=swap');
 
-body { 
-    height:100vh; 
-    margin:0; 
-    display:flex; 
-    flex-direction:column;
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
     margin: 5%;
 }
 
-.part-one, .part-two, .part-three, .part-four, .part-five {
+.part-one,
+.part-two,
+.part-three,
+.part-four,
+.part-five {
     margin-top: 5em;
 }
 
@@ -33,7 +37,7 @@ h2 {
 p {
     font-size: 25px;
     font-family: 'Lato', sans-serif;
-    color:#88898b;
+    color: #88898b;
 }
 
 /* Navigation Styling */
@@ -46,7 +50,7 @@ nav {
 
 nav a {
     text-align: center;
-    color:#F3F3F4;
+    color: #F3F3F4;
     text-decoration: none;
     padding: 0 1em;
     font-size: 30px;
@@ -131,7 +135,7 @@ header {
 .learn-more {
     border-radius: 5px;
     background: rgb(51, 51, 51);
-    color:white;
+    color: white;
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
@@ -150,7 +154,7 @@ header {
 }
 
 .part-one p {
-    color:#88898b;
+    color: #88898b;
 }
 
 /* Home Page Part 2 Styling */
@@ -162,7 +166,7 @@ header {
 }
 
 .part-two p {
-    color:#88898b;
+    color: #88898b;
 }
 
 .card-image {
@@ -280,14 +284,14 @@ header {
 
 /* Footer Styling */
 
-footer{
-  margin-top:auto; 
-  background-color: #88898b;
+footer {
+    margin-top: auto;
+    background-color: #88898b;
 }
 
 .footer-one {
     display: grid;
-    grid-template-columns: repeat(1fr,7);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     background: #383838;
     box-shadow: 3px 3px 6px #88898b;
     text-align: center;
@@ -296,7 +300,7 @@ footer{
 
 .footer-one a {
     text-decoration: none;
-    color:#F3F3F4;
+    color: #F3F3F4;
     font-size: 25px;
     font-family: "Kdam Thmor Pro", "sans-serif";
 }
@@ -375,12 +379,16 @@ footer{
 
 @media screen and (max-width: 900px) {
 
-    .part-one,.part-two,.part-three,.part-four,.part-five {
+    .part-one,
+    .part-two,
+    .part-three,
+    .part-four,
+    .part-five {
         display: block;
         height: auto;
     }
 
-    .sec-one h1{
+    .sec-one h1 {
         font-size: 3rem;
         line-height: 4rem;
     }
