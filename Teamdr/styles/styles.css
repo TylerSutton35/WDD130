@@ -4,9 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lato:wght@300&display=swap');
 
+body { 
+    height:100vh; 
+    margin:0; 
+    display:flex; 
+    flex-direction:column;
+}
+
 main {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 5%;
 }
 
 .part-one, .part-two, .part-three, .part-four, .part-five {
@@ -66,8 +72,8 @@ nav .reviews:hover {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     border: solid 1px black;
 }
@@ -85,23 +91,27 @@ nav .reviews:hover {
 header {
     display: grid;
     grid-template-columns: 150px auto;
-    border-radius: 5px;
     background: #383838;
     box-shadow: 3px 3px 6px #88898b;
+    position: fixed;
+    width: 100%;
 }
 
 .home {
     grid-column: 1/2;
     padding-right: 1em;
+    font-size: 25px;
 }
 
 .about {
     grid-column: 2/3;
     padding-right: 1em;
+    font-size: 25px;
 }
 
 .reviews {
     grid-column: 3/4;
+    font-size: 25px;
 }
 
 
@@ -216,28 +226,84 @@ header {
     padding: 5%;
 }
 
+/* Reviews Page Part 5 Styling */
+
+.review-page {
+    text-align: center;
+}
+
+.part-five {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 6px 6px 11px #88898b;
+    margin: 5% auto;
+    width: fit-content;
+}
+
+.review-content {
+    padding: 5%;
+}
+
+.gamer img {
+    width: 100%;
+    height: 100%;
+}
+
+.review-box {
+    width: fit-content;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 6px 6px 11px #88898b;
+    margin: 2% auto;
+}
+
+/* Contact Page Styling */
+
+.contact-page {
+    text-align: center;
+}
+
+.part-six {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    box-shadow: 6px 6px 11px #88898b;
+    margin: 5% auto;
+    width: fit-content;
+    justify-content: center;
+    padding: 2%;
+}
+
+.contact-page img {
+    padding-left: 5%;
+    width: 100%;
+}
 
 /* Footer Styling */
+
+footer{
+  margin-top:auto; 
+  background-color: #88898b;
+}
 
 .footer-one {
     display: grid;
     grid-template-columns: repeat(1fr,7);
-    border-radius: 5px;
     background: #383838;
     box-shadow: 3px 3px 6px #88898b;
-    margin-top: 50px;
     text-align: center;
     overflow: auto;
 }
 
 .footer-one a {
     text-decoration: none;
-    text-align: center;
     color:#F3F3F4;
-    padding: 1rem;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Kdam Thmor Pro", "sans-serif";
+}
 
+.copyright {
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
 }
 
 .contact-us {
@@ -309,7 +375,7 @@ header {
 
 @media screen and (max-width: 900px) {
 
-    .part-one,.part-two,.part-three,.part-four {
+    .part-one,.part-two,.part-three,.part-four,.part-five {
         display: block;
         height: auto;
     }
